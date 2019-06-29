@@ -1,0 +1,8 @@
+bin
+*.class
+.project
+.classpath
+.settings
+PigLatinTranslator.java
+PigLatinTranslator2.java
+PigLatinTranslator3.java
