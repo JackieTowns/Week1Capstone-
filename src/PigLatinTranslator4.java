@@ -5,8 +5,6 @@ public class PigLatinTranslator4 {
 		Scanner scnr = new Scanner(System.in);
 		System.out.println("Welcome to the Pig Latin Translator!!");
 
-
-
 		String userInput = "y";
 		String yourLine;
 
@@ -28,12 +26,10 @@ public class PigLatinTranslator4 {
 						|| finalWord.startsWith("o") || finalWord.startsWith("u")) {
 
 					yourNewWordVow = finalWord + "way";
-					// System.out.println(finalWord + "way");
+				
 				} else {
-					// System.out.println(finalWord.substring(1) + finalWord.substring(0, 1) +
-					// "ay");
-					//if (finalWord.length() > 0)
-						yourNewWordCon = (finalWord.substring(1) + finalWord.substring(0, 1) + "ay");
+			
+					yourNewWordCon = (finalWord.substring(1) + finalWord.substring(0, 1) + "ay");
 				}
 
 				String newSentence = yourNewWordVow + " " + yourNewWordCon;
